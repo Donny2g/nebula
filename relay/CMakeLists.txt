@@ -21,8 +21,8 @@ set (SRC_LIST
   relay_server.h
   tgvoip_handler.cc
   tgvoip_handler.h
-  relay_table.cc
-  relay_table.h
+  # relay_table.cc
+  # relay_table.h
 )
 
 add_executable (relay ${SRC_LIST})
