@@ -9,5 +9,9 @@
 mkdir out
 cd out
 cmake .. -DCATCH_INCLUDE_DIR=.. -DOPENSSL_ROOT_DIR=/usr/local/opt/openssl -DOPENSSL_LIBRARIES=/usr/local/opt/openssl/lib
+make
+make install
 ```
+
+### 
 
